@@ -6,7 +6,7 @@ Commands:
 
 ```
 cd gcc-arm-none-eabi-X-YYYY-qQ-major
-./install-sources.sh
+./install-sources.sh --skip_steps=mingw32
 ./build-prerequisites.sh --skip_steps=mingw32
 ./build-toolchain.sh --skip_steps=mingw32,mingw32-gdb-with-python,gdb-with-python
 ```
