@@ -6,7 +6,9 @@ Commands:
 
 ```
 cd gcc-arm-none-eabi-X-YYYY-qQ-major
-export JOBS=limit_number_of_cores_used
+
+# Edit ./build-common.sh to change JOBS. I use JOBS=2 and can work on compiling mashine.
+
 ./install-sources.sh --skip_steps=mingw32
 ./build-prerequisites.sh --skip_steps=mingw32
 ./build-toolchain.sh --skip_steps=mingw32,mingw32-gdb-with-python,gdb-with-python
