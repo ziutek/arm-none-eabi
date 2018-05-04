@@ -1,6 +1,6 @@
 ## GNU ARM Embedded Toolchain for Linux/ARM64
 
-This toolchain is for Linux on ARM64 (AArch64) based platforms (compiled and tested on Odroid C2).
+This toolchain is for Linux on ARM64 (AArch64) based platforms (compiled and tested on Odroid C2, on USB connected 32GB SDCARD).
 
 Commands:
 
