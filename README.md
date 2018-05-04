@@ -8,7 +8,7 @@ Commands:
 cd gcc-arm-none-eabi-X-YYYY-qQ-major
 ./install-sources.sh
 ./build-prerequisites.sh --skip_steps=mingw32
-./build-toolchain.sh --skip_steps=mingw32,mingw32-gdb-with-python
+./build-toolchain.sh --skip_steps=mingw32,mingw32-gdb-with-python,gdb-with-python
 ```
 
 Oficial source code and binaries (i386, AMD64) are available on:
